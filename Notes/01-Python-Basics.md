@@ -58,7 +58,7 @@ Syntax rules dictate how code must be written so the Python interpreter can unde
   * *Example:* `import os` or `import socket`
 
 ### 6. Keywords
-* Special reserved words in Python that have built-in meanings (like `def`, `import`, `if`, `True`, `print`). We cannot use these words as names for your variables.
+* Special reserved words in Python that have built-in meanings (like `def`, `import`, `if`, `True`, `print`). We cannot use these words as names for the variables.
 
 
 
