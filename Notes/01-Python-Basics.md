@@ -28,9 +28,9 @@ Syntax rules dictate how code must be written so the Python interpreter can unde
     print("Scanning Network...")
     print("Scan Complete.")
     ```
-* **Semicolon (`;`):** Used if you want to force multiple statements onto a single line.
+* **Semicolon (`;`):** We can use it to force multiple statements onto a single line.
   * *Example:* `ip = "10.0.0.1" ; port = 80`
-* **Line Continuation (`\`):** Used to break a long line of code into multiple lines without breaking the program.
+* **Line Continuation (`\`):** We can use it to break a long line of code into multiple lines without breaking the program.
   * *Example:*
     ```python
     long_string = "This is a very long security alert " \
@@ -39,10 +39,10 @@ Syntax rules dictate how code must be written so the Python interpreter can unde
 
 ### 2. Indentation and White Space
 * **Indentation matters:** Python does not use curly brackets `{}` to group blocks of code (like functions or loops). Instead, it uses **4 spaces** of indentation.
-* **White Space:** Blank lines are ignored by Python. Use them freely to make your code easier to read.
+* **White Space:** Blank lines are ignored by Python. We can use them freely to make your code easier to read. 
 
 ### 3. Comments (`#`)
-* Text starting with a `#` is completely ignored by Python. Use them to explain what your script is doing.
+* Text starting with a `#` is completely ignored by Python. It can be used to explain what the script is doing.
   * *Example:* `# This line connects to the database`
 
 ### 4. Functions
@@ -54,11 +54,11 @@ Syntax rules dictate how code must be written so the Python interpreter can unde
     ```
 
 ### 5. Imports
-* Used to bring in external code libraries so you don't have to code tools from scratch.
+* Used to bring in external code libraries so the user doesn't have to code tools from scratch.
   * *Example:* `import os` or `import socket`
 
 ### 6. Keywords
-* Special reserved words in Python that have built-in meanings (like `def`, `import`, `if`, `True`, `print`). You cannot use these words as names for your variables.
+* Special reserved words in Python that have built-in meanings (like `def`, `import`, `if`, `True`, `print`). We cannot use these words as names for your variables.
 
 
 
