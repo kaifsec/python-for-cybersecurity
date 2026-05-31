@@ -61,5 +61,42 @@ Syntax rules dictate how code must be written so the Python interpreter can unde
 * Special reserved words in Python that have built-in meanings (like `def`, `import`, `if`, `True`, `print`). We cannot use these words as names for the variables.
 
 
+## Variables and Data Types Deep Dive
+
+Variables are containers for storing data values, and data types define what kind of value is inside that container.
+
+### Variable Naming Rules
+To write valid Python code, variable names must follow these strict guidelines:
+* **Must start with** a letter or an underscore (`_`). They cannot start with a number.
+* **Can only contain** alphanumeric characters and underscores (`A-z`, `0-9`, and `_`). No spaces or special characters allowed.
+* **Case-Sensitive:** `target_ip`, `Target_Ip`, and `TARGET_IP` are treated as three completely different variables.
+* **No Keywords:** You cannot use words like `import`, `def`, or `if` as variable names.
+
+### Comprehensive Data Types Summary
+Here are the essential built-in data types in Python with easy examples:
+
+#### 1. Numeric Types
+* **int (Integer):** Whole numbers, positive or negative, without decimals.
+  * *Example:* `port = 80`
+* **float (Floating Point):** Numbers containing one or more decimals.
+  * *Example:* `version = 3.11`
+
+#### 2. Sequence Types
+* **str (String):** Text data wrapped inside single or double quotes.
+  * *Example:* `attacker_ip = "192.168.1.105"`
+* **list:** An ordered, changeable collection of items wrapped in square brackets `[]`.
+  * *Example:* `open_ports = [22, 80, 443]`
+* **tuple:** An ordered collection that **cannot be changed** once created, wrapped in parentheses `()`.
+  * *Example:* `server_coordinates = (12.97, 77.59)`
+
+#### 3. Mapping Type
+* **dict (Dictionary):** Stores data in "Key: Value" pairs inside curly brackets `{}`. Great for looking up specific data.
+  * *Example:* `target_info = {"os": "Linux", "status": "Online"}`
+
+#### 4. Boolean Type
+* **bool:** Represents logical values. Can only be `True` or `False`. (Note the capital T and F!).
+  * *Example:* `is_vulnerable = True`
+
+
 
 
