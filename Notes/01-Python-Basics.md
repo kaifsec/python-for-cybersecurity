@@ -97,6 +97,13 @@ Here are the essential built-in data types in Python with easy examples:
 * **bool:** Represents logical values. Can only be `True` or `False`. (Note the capital T and F!).
   * *Example:* `is_vulnerable = True`
 
+### Python Number Types
+* **int (Integer):** Whole numbers without decimals.
+  * *Example:* `ports = 80`
+* **float (Floating Point):** Numbers containing decimal points.
+  * *Example:* `version = 3.11`
+* **complex (Complex Numbers):** Numbers with a real and an imaginary part ending in `j`.
+  * *Example:* `wave = 3 + 5j`
 
 
 
