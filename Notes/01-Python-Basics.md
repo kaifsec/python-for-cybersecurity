@@ -128,5 +128,14 @@ Here are the essential built-in data types in Python with easy examples:
 * **not:** Flips the value to its opposite.
   * *Example:* `not True` gives `False`
 
+### Tuples in Python
+* **Tuple:** A collection of items that **cannot be changed** (immutable) once created.
+* **Creating a Tuple:** Uses normal parentheses `()`.
+  * *Example:* `ports = (22, 80, 443)`
+* **Without Parentheses:** Python automatically turns comma-separated values into a tuple.
+  * *Example:* `ips = "10.0.0.1", "10.0.0.2"`
+* **Single Item Tuple:** We **must** put a trailing comma at the end, or Python thinks it's just a normal number/string.
+  * *Example:* `my_tuple = (5,)`
+
 
 
