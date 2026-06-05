@@ -116,5 +116,17 @@ Here are the essential built-in data types in Python with easy examples:
     Unauthorized access prohibited!"""
     ```
 
+### Booleans in Python
+* **Boolean:** A data type that can only be `True` or `False`. (Must use capital T and F).
+  * *Example:* `is_admin = True`
+
+### Boolean Operations
+* **and:** Returns `True` only if **both** sides are true.
+  * *Example:* `True and False` gives `False`
+* **or:** Returns `True` if **at least one** side is true.
+  * *Example:* `True or False` gives `True`
+* **not:** Flips the value to its opposite.
+  * *Example:* `not True` gives `False`
+
 
 
