@@ -137,5 +137,25 @@ Here are the essential built-in data types in Python with easy examples:
 * **Single Item Tuple:** We **must** put a trailing comma at the end, or Python thinks it's just a normal number/string.
   * *Example:* `my_tuple = (5,)`
 
+### Lists in Python
+* **List:** A collection of items that **can be changed** (mutable) and keeps its order. Uses square brackets `[]`.
+  * *Example:* `ips = ["10.0.0.1", "192.168.1.1"]`
+
+### Accessing & Slicing
+* **Index:** Access a single item starting from position `0`.
+  * *Example:* `ips[0]` gives `"10.0.0.1"`
+* **Slicing:** Grabs a chunk of the list `[start:stop]`. (Stop position is not included).
+  * *Example:* `ips[0:2]`
+
+### Modifying Lists
+* **append(item):** Adds an item to the absolute end.
+  * *Example:* `ips.append("172.16.0.1")`
+* **insert(index, item):** Inserts an item at a specific position.
+  * *Example:* `ips.insert(1, "8.8.8.8")`
+* **extend([items]):** Adds multiple items at once to the end.
+* **remove(value):** Deletes an item by its name/value.
+  * *Example:* `ips.remove("10.0.0.1")`
+* **pop(index):** Deletes an item by its position number.
+* **clear():** Wipes out everything, leaving the list completely empty `[]`.
 
 
