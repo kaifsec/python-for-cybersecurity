@@ -105,5 +105,16 @@ Here are the essential built-in data types in Python with easy examples:
 * **complex (Complex Numbers):** Numbers with a real and an imaginary part ending in `j`.
   * *Example:* `wave = 3 + 5j`
 
+### Strings in Python
+* **Strings:** Text data wrapped in quotes.
+* **Single or Double Quotes:** Used for normal, single-line text.
+  * *Example:* `name = 'Kaif'` or `role = "Admin"`
+* **Triple Quotes (`'''` or `"""`):** Used if your text spans across multiple lines.
+  * *Example:*
+    ```python
+    banner = """WARNING:
+    Unauthorized access prohibited!"""
+    ```
+
 
 
