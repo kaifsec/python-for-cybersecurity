@@ -158,4 +158,9 @@ Here are the essential built-in data types in Python with easy examples:
 * **pop(index):** Deletes an item by its position number.
 * **clear():** Wipes out everything, leaving the list completely empty `[]`.
 
-
+### Dictionaries in Python
+* **Dictionary:** A collection that stores data in **Key-Value pairs** inside curly brackets `{}`. 
+* **Creating:** You assign a label (Key) to a piece of data (Value) using a colon `:`.
+  * *Example:* `user = {"name": "Kaif", "role": "Admin"}`
+* **Accessing:** You call the data by using its specific Key name inside square brackets `[]`.
+  * *Example:* `user["role"]` gives `"Admin"`
