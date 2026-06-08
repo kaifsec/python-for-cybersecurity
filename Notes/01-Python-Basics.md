@@ -164,3 +164,10 @@ Here are the essential built-in data types in Python with easy examples:
   * *Example:* `user = {"name": "Kaif", "role": "Admin"}`
 * **Accessing:** You call the data by using its specific Key name inside square brackets `[]`.
   * *Example:* `user["role"]` gives `"Admin"`
+
+### Sets in Python
+* **Set:** An unordered collection of **unique items**. It uses curly brackets `{}`, but no colons.
+* **Removes Duplicates:** If you put duplicate items in a set, Python automatically throws the duplicates away.
+  * *Example:* `my_set = {1, 2, 1, 3}` becomes `{1, 2, 3}`
+* **Empty Set:** You must use `set()` to make an empty set. (Using `{}` makes an empty dictionary instead).
+  * *Example:* `bad_ips = set()`
