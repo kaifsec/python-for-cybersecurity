@@ -171,3 +171,23 @@ Here are the essential built-in data types in Python with easy examples:
   * *Example:* `my_set = {1, 2, 1, 3}` becomes `{1, 2, 3}`
 * **Empty Set:** You must use `set()` to make an empty set. (Using `{}` makes an empty dictionary instead).
   * *Example:* `bad_ips = set()`
+
+### Conditional Statements in Python
+* **Conditional Statements:** Let your code make decisions and execute actions based on specific conditions.
+
+### Syntax Components
+* **if:** Evaluates a condition. If true, the code inside runs.
+* **elif (else if):** Checked only if the previous conditions were false.
+* **else:** Runs automatically if none of the above conditions match.
+* **Nested Conditionals:** An `if` statement written inside another `if` statement.
+
+### Code Example
+```python
+score = 85
+
+if score >= 90:
+    print("Grade A")
+elif score >= 75:
+    print("Grade B")
+else:
+    print("Fail")
