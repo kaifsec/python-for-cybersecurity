@@ -191,13 +191,4 @@ elif score >= 75:
     print("Grade B")
 else:
     print("Fail")
-                 ```
-## Loops in Python
-
-### 1. for Loop
-* **What it does:** Runs a code block for each item in a sequence (like a list or a range).
-* *Example:*
-  ```python
-  fruits = ["apple", "banana", "cherry"]
-  for fruit in fruits:
-      print(fruit)
+                 
