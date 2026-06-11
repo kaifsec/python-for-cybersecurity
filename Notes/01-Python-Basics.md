@@ -191,7 +191,7 @@ elif score >= 75:
     print("Grade B")
 else:
     print("Fail")
-
+                 ```
 ## Loops in Python
 
 ### 1. for Loop
