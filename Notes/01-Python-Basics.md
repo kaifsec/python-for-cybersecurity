@@ -191,4 +191,14 @@ elif score >= 75:
     print("Grade B")
 else:
     print("Fail")
+
+### Loops
+* **For Loop**
+
+* **What it does:** Runs a code block for each item in a sequence(like a list or a range)
+
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
                  
